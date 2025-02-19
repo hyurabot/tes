@@ -1,0 +1,46 @@
+app/
+├── Http/
+│   └── Middleware/
+│       ├── AdminMiddleware.php
+│       └── StaffMiddleware.php
+├── Livewire/
+│   ├── Admin/
+│   │   ├── Books/
+│   │   │   ├── Index.php
+│   │   │   ├── Create.php 
+│   │   │   └── Edit.php
+│   │   ├── Users/
+│   │   │   ├── Index.php
+│   │   │   ├── Create.php
+│   │   │   └── Edit.php
+│   │   ├── Loans/
+│   │   │   ├── Index.php
+│   │   │   └── Show.php
+│   │   ├── Dashboard.php
+│   │   └── Layout/
+│   │       ├── App.php
+│   │       ├── Navigation.php
+│   │       └── Sidebar.php
+│   ├── Front/
+│   │   ├── Home.php
+│   │   ├── Books/
+│   │   │   ├── Index.php
+│   │   │   └── Show.php
+│   │   ├── About.php
+│   │   └── Contact.php
+│   ├── User/
+│   │   ├── Profile/
+│   │   │   ├── Index.php
+│   │   │   └── Edit.php
+│   │   ├── Books/
+│   │   │   ├── Index.php
+│   │   │   └── Bookmarks.php
+│   │   └── Loans/
+│   │       ├── Index.php
+│   │       └── History.php
+│   ├── Auth/
+│   │   ├── Login.php
+│   │   └── Register.php
+│   └── Components/
+│       ├── BookCard.php
+│       └── RatingStars.php
