@@ -1,0 +1,42 @@
+resources/
+└── views/
+    ├── admin/
+    │   ├── books/
+    │   │   ├── index.blade.php
+    │   │   ├── create.blade.php
+    │   │   └── edit.blade.php
+    │   ├── users/
+    │   │   ├── index.blade.php
+    │   │   ├── create.blade.php
+    │   │   └── edit.blade.php
+    │   ├── loans/
+    │   │   ├── index.blade.php
+    │   │   └── show.blade.php
+    │   ├── dashboard.blade.php
+    │   └── layout/
+    │       ├── app.blade.php
+    │       ├── navigation.blade.php
+    │       └── sidebar.blade.php
+    ├── front/
+    │   ├── home.blade.php
+    │   ├── books/
+    │   │   ├── index.blade.php
+    │   │   └── show.blade.php
+    │   ├── about.blade.php
+    │   └── contact.blade.php
+    ├── user/
+    │   ├── profile/
+    │   │   ├── index.blade.php
+    │   │   └── edit.blade.php
+    │   ├── books/
+    │   │   ├── index.blade.php
+    │   │   └── bookmarks.blade.php
+    │   └── loans/
+    │       ├── index.blade.php
+    │       └── history.blade.php
+    ├── auth/
+    │   ├── login.blade.php
+    │   └── register.blade.php
+    └── components/
+        ├── book-card.blade.php
+        └── rating-stars.blade.php
